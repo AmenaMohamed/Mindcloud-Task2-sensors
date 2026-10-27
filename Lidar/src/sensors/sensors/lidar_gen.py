@@ -18,8 +18,3 @@ def generate():
     #ranges=[]
     for i in 180:
         LaserScan.ranges[i] = random.randrange(0.1 , 7)
-
-
-
-
-    pass

@@ -7,7 +7,7 @@ from lidar_gen import generate
 #sensor_msgs/msg/LaserScan 
 
 
-class MinimalPublisher(Node):
+class LidarPub(Node):
 
     def __init__(self):
         super().__init__('pub_Lidar')
@@ -21,21 +21,21 @@ class MinimalPublisher(Node):
         msg = generate()
         msg.data = 'Hello World: %d' % self.i
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
+        self.get_logger().info('Lidar Data: "%s"' % msg)
         self.i += 1
 
 
 def main(args=None):
     rclpy.init(args=args)
 
-    minimal_publisher = MinimalPublisher()
+    publisher = LidarPub()
 
-    rclpy.spin(minimal_publisher)
+    rclpy.spin(publisher)
 
     # Destroy the node explicitly
     # (optional - otherwise it will be done automatically
     # when the garbage collector destroys the node object)
-    minimal_publisher.destroy_node()
+    publisher.destroy_node()
     rclpy.shutdown()
 
 
