@@ -19,9 +19,9 @@ class LidarPub(Node):
     def publish(self):
 
         msg = generate()
-        msg.data = 'Hello World: %d' % self.i
+        #msg.data = 'Hello World: %d' % self.i
         self.publisher_.publish(msg)
-        self.get_logger().info('Lidar Data: "%s"' % msg)
+        #self.get_logger().info('Lidar Data: "%s"' % msg)
         self.i += 1
 
 
