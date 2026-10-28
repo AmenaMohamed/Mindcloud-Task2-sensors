@@ -1,4 +1,5 @@
 #Resource : https://wiki.ros.org/laser_pipeline/Tutorials/IntroductionToWorkingWithLaserScannerData
+
 # Single scan from a planar laser range-finder
 
 Header header

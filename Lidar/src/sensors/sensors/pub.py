@@ -13,10 +13,10 @@ class LidarPub(Node):
         super().__init__('pub_Lidar')
         self.publisher_ = self.create_publisher(LaserScan, '/scan', 10)
         timer_period = 0.1  # seconds (10HZ)
-        self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.timer = self.create_timer(timer_period, self.publisher)
         self.i = 0
 
-    def timer_callback(self):
+    def publish(self):
 
         msg = generate()
         msg.data = 'Hello World: %d' % self.i
