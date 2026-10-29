@@ -2,28 +2,39 @@
 #Lidar msg syntax: https://docs.ros.org/en/jade/api/sensor_msgs/html/msg/LaserScan.html
 from sensor_msgs.msg import LaserScan
 from std_msgs.msg import Header
-import rospy
 import random 
+import math 
 
 
-def generate(frame_id="laser", num_readings=360):
+def generate(timestamp_msg):
     msg=LaserScan()
-    LaserScan.header = Header()
-    LaserScan.header.stamp = rospy.Time.now()  # Userclpy.time.Time.to_msg() for ROS 2
-    LaserScan.header.frame_id = frame_id
+    msg.header = Header()
+    msg.header.stamp = timestamp_msg  # Userclpy.time.Time.to_msg() for ROS 2
+    msg.header.frame_id = "laser"
     #LaserScan.header.
-    LaserScan.angle_min = -90 
-    LaserScan.angle_max = 90 
-    LaserScan.angle_increment= 1
-    LaserScan.time_increment=20 #(sec)
-    LaserScan.range_min= 0.1 #(m)
-    LaserScan.range_max= 7 #(m)
-    LaserScan.ranges
+    msg.angle_min = math.radians(-180)
+    msg.angle_max = math.radians(180)
+    msg.angle_increment = 0.017
+    msg.time_increment = 0.0  
+    msg.scan_time = 0.01      
+    msg.range_min = 0.1
+    msg.range_max = 10.0
     #for packing read distances
-    #ranges=[]
+    ranges=[]
     
-    for i in 180:
-        LaserScan.ranges[i] = random.randrange(0.1 , 7)
+    for i in range(180):
+        if 90 <= i <= 110:
+            ranges.append(1.0)
+        elif 250 <= i <= 270:
+            ranges.append(2.0)
+        else:
+            ranges.append(5.0)
+            
+    msg.ranges = ranges
+    
+    inten=[]
+    for i in range(180):
+        inten.append(random.uniform(0.0 , 100.0) )
 
-    for i in 180:
-        LaserScan.intensities[i] = random.randrange(0.0 , 100.0)
+    msg.intensities=inten
+    return msg

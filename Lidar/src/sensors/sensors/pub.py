@@ -3,7 +3,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import String
 from sensor_msgs.msg import LaserScan
-from lidar_gen import generate
+from sensors.lidar_gen import generate
 #sensor_msgs/msg/LaserScan 
 
 
@@ -13,16 +13,18 @@ class LidarPub(Node):
         super().__init__('pub_Lidar')
         self.publisher_ = self.create_publisher(LaserScan, '/scan', 10)
         timer_period = 0.1  # seconds (10HZ)
-        self.timer = self.create_timer(timer_period, self.publisher)
+        self.timer = self.create_timer(timer_period, self.publish)
         self.i = 0
 
     def publish(self):
 
-        msg = generate()
-        #msg.data = 'Hello World: %d' % self.i
+        # Pass the ROS 2 time to the generator
+        msg = generate(self.get_clock().now().to_msg())
         self.publisher_.publish(msg)
-        #self.get_logger().info('Lidar Data: "%s"' % msg)
+        self.get_logger().info(f'Lidar Data: {self.i}')
         self.i += 1
+        
+
 
 
 def main(args=None):

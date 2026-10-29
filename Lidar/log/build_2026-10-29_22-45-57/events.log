@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.003453] (sensors) JobQueued: {'identifier': 'sensors', 'dependencies': OrderedDict()}
+[0.007705] (sensors) JobStarted: {'identifier': 'sensors'}
+[0.093973] (-) TimerEvent: {}
+[0.197101] (-) TimerEvent: {}
+[0.300385] (-) TimerEvent: {}
+[0.403012] (-) TimerEvent: {}
+[0.506458] (-) TimerEvent: {}
+[0.610469] (-) TimerEvent: {}
+[0.714527] (-) TimerEvent: {}
+[0.822648] (-) TimerEvent: {}
+[0.926030] (-) TimerEvent: {}
+[1.033618] (-) TimerEvent: {}
+[1.143377] (-) TimerEvent: {}
+[1.259810] (-) TimerEvent: {}
+[1.364627] (-) TimerEvent: {}
+[1.468091] (-) TimerEvent: {}
+[1.572066] (-) TimerEvent: {}
+[1.675226] (-) TimerEvent: {}
+[1.783455] (-) TimerEvent: {}
+[1.886697] (-) TimerEvent: {}
+[1.991997] (-) TimerEvent: {}
+[2.096043] (-) TimerEvent: {}
+[2.198622] (-) TimerEvent: {}
+[2.303476] (-) TimerEvent: {}
+[2.405992] (-) TimerEvent: {}
+[2.508670] (-) TimerEvent: {}
+[2.610940] (-) TimerEvent: {}
+[2.718971] (-) TimerEvent: {}
+[2.822891] (-) TimerEvent: {}
+[2.925810] (-) TimerEvent: {}
+[3.028687] (-) TimerEvent: {}
+[3.130918] (-) TimerEvent: {}
+[3.233275] (-) TimerEvent: {}
+[3.336138] (-) TimerEvent: {}
+[3.438286] (-) TimerEvent: {}
+[3.540415] (-) TimerEvent: {}
+[3.642652] (-) TimerEvent: {}
+[3.745421] (-) TimerEvent: {}
+[3.847615] (-) TimerEvent: {}
+[3.953664] (-) TimerEvent: {}
+[4.055906] (-) TimerEvent: {}
+[4.157733] (-) TimerEvent: {}
+[4.259918] (-) TimerEvent: {}
+[4.361852] (-) TimerEvent: {}
+[4.464811] (-) TimerEvent: {}
+[4.568986] (-) TimerEvent: {}
+[4.670915] (-) TimerEvent: {}
+[4.774090] (-) TimerEvent: {}
+[4.881567] (-) TimerEvent: {}
+[4.983906] (-) TimerEvent: {}
+[5.088062] (-) TimerEvent: {}
+[5.190975] (-) TimerEvent: {}
+[5.294395] (-) TimerEvent: {}
+[5.397827] (-) TimerEvent: {}
+[5.501329] (-) TimerEvent: {}
+[5.604492] (-) TimerEvent: {}
+[5.707909] (-) TimerEvent: {}
+[5.810832] (-) TimerEvent: {}
+[5.913594] (-) TimerEvent: {}
+[6.016842] (-) TimerEvent: {}
+[6.119651] (-) TimerEvent: {}
+[6.223590] (-) TimerEvent: {}
+[6.325855] (-) TimerEvent: {}
+[6.428275] (-) TimerEvent: {}
+[6.530624] (-) TimerEvent: {}
+[6.634060] (-) TimerEvent: {}
+[6.737394] (-) TimerEvent: {}
+[6.840839] (-) TimerEvent: {}
+[6.943727] (-) TimerEvent: {}
+[7.046673] (-) TimerEvent: {}
+[7.149042] (-) TimerEvent: {}
+[7.251818] (-) TimerEvent: {}
+[7.354888] (-) TimerEvent: {}
+[7.457963] (-) TimerEvent: {}
+[7.560454] (-) TimerEvent: {}
+[7.663972] (-) TimerEvent: {}
+[7.766604] (-) TimerEvent: {}
+[7.871488] (-) TimerEvent: {}
+[7.973736] (-) TimerEvent: {}
+[8.076114] (-) TimerEvent: {}
+[8.179890] (-) TimerEvent: {}
+[8.283504] (-) TimerEvent: {}
+[8.386171] (-) TimerEvent: {}
+[8.489822] (-) TimerEvent: {}
+[8.593857] (-) TimerEvent: {}
+[8.696558] (-) TimerEvent: {}
+[8.799828] (-) TimerEvent: {}
+[8.903631] (-) TimerEvent: {}
+[9.007201] (-) TimerEvent: {}
+[9.091240] (sensors) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sensors', 'build', '--build-base', '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/build/sensors/build', 'install', '--record', '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/build/sensors/install.log', '--install-scripts', '$base/lib/sensors', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/src/sensors', 'env': {'GZ_SIM_SYSTEM_PLUGIN_PATH': '/home/amena/ardupilot_gazebo/build:/home/amena/ardupilot_gazebo/build:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/amena/ardupilot_gazebo/models:/home/amena/ardupilot_gazebo/worlds:/home/amena/ardupilot_gazebo/models:/home/amena/ardupilot_gazebo/worlds:', 'USER': 'amena', 'GIT_ASKPASS': '/home/amena/.vscode-server/bin/2c33b50b16c472efe58357d1d2a8a5414bc23fbf/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/amena', 'OLDPWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/src', 'TERM_PROGRAM_VERSION': '1.144.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-cc608bd6-85a7-4dfc-88ff-7603e86c4e3a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/amena/.vscode-server/bin/2c33b50b16c472efe58357d1d2a8a5414bc23fbf/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/amena/.vscode-server/bin/2c33b50b16c472efe58357d1d2a8a5414bc23fbf/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install:/home/amena/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'amena', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/1002_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/amena/ardupilot/Tools/autotest:/home/amena/.vscode-server/bin/2c33b50b16c472efe58357d1d2a8a5414bc23fbf/bin/remote-cli:/home/amena/venv-ardupilot/bin:/opt/ros/jazzy/bin:/home/amena/ardupilot/Tools/autotest:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.20.101-hotspot/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Program Files/easyeda-pro:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Owner/Amena/programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Python/Python313/Scripts:/mnt/c/Users/Owner/AppData/Local/Kingsoft/WPS Office/12.1.0.27458/clitool:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Owner/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/snap/bin:/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'WT_SESSION': '980171e4-078c-49f5-9d7f-bc498ce4b84f', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/amena/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-e74de839e9ce0b1d.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/amena/.vscode-server/data/User/workspaceStorage/ee68c3a53669f19c4be846c5a7a3fbff/ms-python.python/pythonrc.py', 'VIRTUAL_ENV_PROMPT': '(venv-ardupilot)', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cb87fc301a.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install/sensors:/home/amena/ros2_ws/install/ros2_workshop:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GZ_VERSION': 'harmonic', 'VIRTUAL_ENV': '/home/amena/venv-ardupilot', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/build/sensors', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/build/sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install/sensors/lib/python3.12/site-packages:/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install/sensors/lib/python3.12/site-packages:/home/amena/ros2_ws/install/ros2_workshop/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[9.151025] (-) TimerEvent: {}
+[9.253413] (-) TimerEvent: {}
+[9.356711] (-) TimerEvent: {}
+[9.459428] (-) TimerEvent: {}
+[9.563224] (-) TimerEvent: {}
+[9.666835] (-) TimerEvent: {}
+[9.769190] (-) TimerEvent: {}
+[9.871563] (-) TimerEvent: {}
+[9.974381] (-) TimerEvent: {}
+[10.077620] (-) TimerEvent: {}
+[10.180116] (-) TimerEvent: {}
+[10.282740] (-) TimerEvent: {}
+[10.387978] (-) TimerEvent: {}
+[10.548133] (-) TimerEvent: {}
+[10.691212] (-) TimerEvent: {}
+[10.821083] (-) TimerEvent: {}
+[10.924052] (-) TimerEvent: {}
+[11.026776] (-) TimerEvent: {}
+[11.129459] (-) TimerEvent: {}
+[11.232870] (-) TimerEvent: {}
+[11.336120] (-) TimerEvent: {}
+[11.438333] (-) TimerEvent: {}
+[11.540875] (-) TimerEvent: {}
+[11.644443] (-) TimerEvent: {}
+[11.748322] (-) TimerEvent: {}
+[11.851724] (-) TimerEvent: {}
+[11.954378] (-) TimerEvent: {}
+[12.056729] (-) TimerEvent: {}
+[12.159202] (-) TimerEvent: {}
+[12.262275] (-) TimerEvent: {}
+[12.365419] (-) TimerEvent: {}
+[12.468991] (-) TimerEvent: {}
+[12.572055] (-) TimerEvent: {}
+[12.635112] (sensors) StdoutLine: {'line': b'running egg_info\n'}
+[12.673430] (-) TimerEvent: {}
+[12.751398] (sensors) StdoutLine: {'line': b'writing ../../build/sensors/sensors.egg-info/PKG-INFO\n'}
+[12.774376] (-) TimerEvent: {}
+[12.783474] (sensors) StdoutLine: {'line': b'writing dependency_links to ../../build/sensors/sensors.egg-info/dependency_links.txt\n'}
+[12.820570] (sensors) StdoutLine: {'line': b'writing entry points to ../../build/sensors/sensors.egg-info/entry_points.txt\n'}
+[12.849593] (sensors) StdoutLine: {'line': b'writing requirements to ../../build/sensors/sensors.egg-info/requires.txt\n'}
+[12.863908] (sensors) StdoutLine: {'line': b'writing top-level names to ../../build/sensors/sensors.egg-info/top_level.txt\n'}
+[12.874823] (-) TimerEvent: {}
+[12.978597] (-) TimerEvent: {}
+[13.082277] (-) TimerEvent: {}
+[13.185041] (-) TimerEvent: {}
+[13.229949] (sensors) StdoutLine: {'line': b"reading manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[13.286538] (-) TimerEvent: {}
+[13.388975] (-) TimerEvent: {}
+[13.491038] (-) TimerEvent: {}
+[13.520602] (sensors) StdoutLine: {'line': b"writing manifest file '../../build/sensors/sensors.egg-info/SOURCES.txt'\n"}
+[13.535121] (sensors) StdoutLine: {'line': b'running build\n'}
+[13.542550] (sensors) StdoutLine: {'line': b'running build_py\n'}
+[13.592279] (-) TimerEvent: {}
+[13.608580] (sensors) StdoutLine: {'line': b'copying sensors/lidar_gen.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/build/sensors/build/lib/sensors\n'}
+[13.692600] (-) TimerEvent: {}
+[13.796235] (-) TimerEvent: {}
+[13.865148] (sensors) StdoutLine: {'line': b'running install\n'}
+[13.896774] (-) TimerEvent: {}
+[13.940161] (sensors) StdoutLine: {'line': b'running install_lib\n'}
+[13.997142] (-) TimerEvent: {}
+[14.100228] (-) TimerEvent: {}
+[14.203457] (-) TimerEvent: {}
+[14.306429] (-) TimerEvent: {}
+[14.409285] (-) TimerEvent: {}
+[14.503698] (sensors) StdoutLine: {'line': b'copying /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/build/sensors/build/lib/sensors/lidar_gen.py -> /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install/sensors/lib/python3.12/site-packages/sensors\n'}
+[14.516832] (-) TimerEvent: {}
+[14.619614] (-) TimerEvent: {}
+[14.722866] (-) TimerEvent: {}
+[14.827991] (-) TimerEvent: {}
+[14.931169] (-) TimerEvent: {}
+[15.010890] (sensors) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install/sensors/lib/python3.12/site-packages/sensors/lidar_gen.py to lidar_gen.cpython-312.pyc\n'}
+[15.031659] (-) TimerEvent: {}
+[15.134548] (-) TimerEvent: {}
+[15.237096] (-) TimerEvent: {}
+[15.340823] (-) TimerEvent: {}
+[15.364643] (sensors) StdoutLine: {'line': b'running install_data\n'}
+[15.443215] (-) TimerEvent: {}
+[15.513848] (sensors) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.544051] (-) TimerEvent: {}
+[15.646597] (-) TimerEvent: {}
+[15.750705] (-) TimerEvent: {}
+[15.854522] (-) TimerEvent: {}
+[15.866933] (sensors) StdoutLine: {'line': b"removing '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install/sensors/lib/python3.12/site-packages/sensors-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[15.954922] (-) TimerEvent: {}
+[16.057624] (-) TimerEvent: {}
+[16.165671] (-) TimerEvent: {}
+[16.261232] (sensors) StdoutLine: {'line': b'Copying ../../build/sensors/sensors.egg-info to /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install/sensors/lib/python3.12/site-packages/sensors-0.0.0-py3.12.egg-info\n'}
+[16.269470] (-) TimerEvent: {}
+[16.372242] (-) TimerEvent: {}
+[16.475579] (-) TimerEvent: {}
+[16.578001] (-) TimerEvent: {}
+[16.681771] (-) TimerEvent: {}
+[16.784683] (-) TimerEvent: {}
+[16.888237] (-) TimerEvent: {}
+[16.991450] (-) TimerEvent: {}
+[17.093921] (-) TimerEvent: {}
+[17.196666] (-) TimerEvent: {}
+[17.300225] (-) TimerEvent: {}
+[17.403262] (-) TimerEvent: {}
+[17.506972] (-) TimerEvent: {}
+[17.610322] (-) TimerEvent: {}
+[17.765783] (-) TimerEvent: {}
+[17.888310] (-) TimerEvent: {}
+[17.991709] (-) TimerEvent: {}
+[18.096967] (-) TimerEvent: {}
+[18.203363] (-) TimerEvent: {}
+[18.208772] (sensors) StdoutLine: {'line': b'running install_scripts\n'}
+[18.304599] (-) TimerEvent: {}
+[18.408292] (-) TimerEvent: {}
+[18.512333] (-) TimerEvent: {}
+[18.615019] (-) TimerEvent: {}
+[18.718294] (-) TimerEvent: {}
+[18.821850] (-) TimerEvent: {}
+[18.924759] (-) TimerEvent: {}
+[19.028022] (-) TimerEvent: {}
+[19.131024] (-) TimerEvent: {}
+[19.238111] (-) TimerEvent: {}
+[19.341605] (-) TimerEvent: {}
+[19.464885] (-) TimerEvent: {}
+[19.568682] (-) TimerEvent: {}
+[19.672966] (-) TimerEvent: {}
+[19.777043] (-) TimerEvent: {}
+[19.880888] (-) TimerEvent: {}
+[19.984205] (-) TimerEvent: {}
+[20.088189] (-) TimerEvent: {}
+[20.192120] (-) TimerEvent: {}
+[20.250731] (sensors) StdoutLine: {'line': b'Installing pub script to /mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/install/sensors/lib/sensors\n'}
+[20.292413] (-) TimerEvent: {}
+[20.396210] (-) TimerEvent: {}
+[20.475574] (sensors) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/Owner/Amena/engineering/mindcloud/Tasks/Nav-training/Task2-sensors/Task2-sensor/Mindcloud-Task2-sensors/Lidar/build/sensors/install.log'\n"}
+[20.496531] (-) TimerEvent: {}
+[20.602940] (-) TimerEvent: {}
+[20.708659] (-) TimerEvent: {}
+[20.720782] (sensors) CommandEnded: {'returncode': 0}
+[20.809138] (-) TimerEvent: {}
+[20.912568] (-) TimerEvent: {}
+[21.016092] (-) TimerEvent: {}
+[21.119065] (-) TimerEvent: {}
+[21.225180] (-) TimerEvent: {}
+[21.327879] (-) TimerEvent: {}
+[21.430655] (-) TimerEvent: {}
+[21.533250] (-) TimerEvent: {}
+[21.636928] (-) TimerEvent: {}
+[21.740551] (-) TimerEvent: {}
+[21.843317] (-) TimerEvent: {}
+[21.945616] (-) TimerEvent: {}
+[22.048201] (-) TimerEvent: {}
+[22.108800] (sensors) JobEnded: {'identifier': 'sensors', 'rc': 0}
+[22.165599] (-) TimerEvent: {}
+[22.168842] (-) EventReactorShutdown: {}
